@@ -26,19 +26,19 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "26618711")
+    API_HASH  = os.environ.get("API_HASH", "9432de5e2093ba92144904d6185e2c93")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7775134610:AAFq1Rxs4q9Mkm7uOcgvBwIM7CJcOcm0fg8") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","pyro-botz")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","foxmoviesone")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://foxmoviestest:<db_foxmoviestest>@clusterbot.rkdm2tr.mongodb.net/?retryWrites=true&w=majority&appName=ClusterBot")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
+    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/b49b82f15f6405bf40026-591eb55d0cbcde970a.jpg")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7195674717').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002155550113") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
     MAX_CONCURRENT_TRANSMISSIONS = int(os.environ.get("MAX_CONCURRENT_TRANSMISSIONS", "2")) # Set the maximum amount of concurrent transmissions (uploads & downloads).
     
