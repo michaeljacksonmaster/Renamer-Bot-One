@@ -7,11 +7,11 @@
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
-            "value": ""
+            "value": "26618711"
         },
         "API_HASH": {
             "description": "Your API Hash From my.telegram.org ",
-            "value": ""
+            "value": "9432de5e2093ba92144904d6185e2c93"
         },
         "WEB_SUPPORT": {
             "description": "if your server is need web service! value = True else value = False",
@@ -19,12 +19,12 @@
         },
         "FORCE_SUB": {
             "description": "Your force sub channel user name without [@] ",
-            "value": "",
+            "value": "-1002155550113",
             "required": false 
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": ""
+            "value": "7775134610:AAFq1Rxs4q9Mkm7uOcgvBwIM7CJcOcm0fg8"
         },
         "ADMIN": {
             "description":"Add Your User ID multiple is use space to split"
@@ -35,16 +35,16 @@
         },
         "DB_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
-            "value": ""
+            "value": "mongodb+srv://foxmoviestest:<db_foxmoviestest>@clusterbot.rkdm2tr.mongodb.net/?retryWrites=true&w=majority&appName=ClusterBot"
         },
         "DB_NAME":{ 
             "description":"Your Mongo DB Database Name ",
-            "value": "pyro-botz",
+            "value": "foxmoviesone",
             "required": false
         },
         "START_PIC": {
             "description": "Your Bot start cmd Pic from @MT_TelegraPH_Bot",
-            "value": "",
+            "value": "https://graph.org/file/b49b82f15f6405bf40026-591eb55d0cbcde970a.jpg",
             "required": false
         }
     },
